@@ -1,0 +1,294 @@
+body
+{
+    margin-top: 30px;
+}
+.nav_item a
+{
+    text-decoration: none;
+    color: hsl(221, 39%, 11%);
+}
+.nav_item
+{
+    height: 35px;
+    align-items: center;
+    border-bottom: 1px solid #000000;
+    padding-bottom: 30px;
+    
+}
+
+/* form */
+.form-inline-custom {
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background-color: #fff;
+    padding: 5px;
+}
+.form-inline-custom input {
+    border: none;
+    outline: none;
+    box-shadow: none;
+    flex: 1;
+}
+.form-inline-custom button {
+    border: none;
+    border-radius: 50px;
+    background-color: #fc405e;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+/* 2nd */
+.second
+{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+/* 4th */
+.forth
+{
+    text-align: center;
+}
+.forth_1
+{
+    margin-top: 120px;
+}
+.forth_3
+{
+    margin-top: 83px;
+    margin-bottom: 83px;
+}
+
+/* 5th */
+.fifth
+{
+    background-color: #0A85EA;
+    padding-top: 135px;
+    padding-bottom: 135px;
+    padding-right: 230px;
+    padding-left: 230px;
+    color: #ffffff;
+}
+.fifth_2
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 101px;
+}
+
+/* 6th */
+.sixth
+{
+    padding: 120px 130px;
+}
+.sixth_1
+{
+    margin-top: 79px;
+}
+.sixth_1 .card
+{
+    padding: 40px;
+}
+.sixth_1 img
+{
+    width: 70px;
+    height: 70px;
+    margin-bottom: 20px;
+}
+
+/* seventh */
+.seventh
+{
+    padding-right: 130px;
+    padding-left: 130px;
+    color: #ffffff;
+}
+.seventh_1
+{
+    padding: 80px 210px;
+    background: #0A85EA;
+    text-align: center;
+}
+/* 8th */
+.eighth
+{
+    text-align: center;
+    padding: 120px 100px;
+}
+.eighth_1
+{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.eighth .row p
+{
+    margin-top: 30px;
+    margin-bottom: 0px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.eighth_1 .team
+{
+    color: #F63A61;
+    background: rgb(246, 58, 97,0.1);
+    font-size: 12px;
+    font-weight: 500;
+    padding: 5px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+.eighth .row small
+{
+    margin-top: 0px;
+}
+/* 9th */
+
+.ninth
+{
+    padding: 0px 130px;
+    padding-bottom: 120px;
+}
+.ninth_1
+{
+    padding: 60px 100px;
+    background-color: #EAEAEA;
+}
+/* 10th */
+.tenth
+{
+    padding: 120px 230px;
+    background: #F6F5F8;
+}
+.faq-container {
+    padding: 30px;
+    text-align: center;
+    margin: 20px;
+}
+
+.faq-container h1 {
+    color: #3c3c7e;
+    margin-bottom: 10px;
+}
+
+.faq-container p {
+    color: #6c6c7e;
+    margin-bottom: 30px;
+}
+
+.faq-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.faq-item {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+
+.faq-question {
+    background-color: #f9f9f9;
+    color: #3c3c7e;
+    padding: 15px 20px;
+    font-size: 16px;
+    border: none;
+    text-align: left;
+    width: 100%;
+    cursor: pointer;
+    position: relative;
+}
+
+.faq-question:after {
+    content: '\25BC'; /* Unicode character for downward arrow */
+    float: right;
+}
+
+.faq-answer {
+    padding: 20px;
+    display: none;
+    color: #6c6c7e;
+    font-size: 14px;
+    border-top: 1px solid #ddd;
+}
+
+.faq-item.active .faq-answer {
+    display: block;
+}
+
+.faq-item.active .faq-question:after {
+    content: '\25B2'; /* Unicode character for upward arrow */
+}
+
+/* 11th */
+.eleventh
+{
+    background: #00063F;
+    color: #fff;
+    padding: 120px 230px;
+}
+.eleventh ul
+{
+    list-style: none;
+}
+.eleventh .list
+{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 60px;
+    color: rgb(255, 255, 255 , 0.5);
+}
+.eleventh .up
+{
+    color: #ffffff;
+}
+.footer
+{
+    margin-top: 50px;
+}
+
+
+.head1
+{
+    font-size: 16px;
+    font-weight: 500;
+}
+.head2
+{
+    font-size: 56px;
+    font-weight: 700;
+}
+.head3
+{
+    font-size: 12px;
+    font-weight: 400;
+}
+.head4
+{
+    font-size: 22px;
+    font-weight: 500;
+}
+.head5
+{
+    font-size: 16px;
+    font-weight: 400;
+}
+.head6
+{
+    font-size: 40px;
+    font-weight: 700;
+}
+.head7
+{
+    font-size: 18px;
+    font-weight: 500;
+}
+.head8
+{
+    font-size: 28px;
+    font-weight: 500;
+}
